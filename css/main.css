@@ -1,0 +1,38 @@
+/*DEVELOPER: Isaac Guerrero, IS117-003, Semester, 2023 */
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.col-sm-4 {
+    flex: 0 0 400px; /* Set a fixed width for the columns */
+}
+
+.row {
+    justify-content: center; /* Center the columns horizontally */
+
+}
+
+.card-custom {
+    border: 2px solid #343a40; /* Border color and thickness */
+    border-radius: 10px; /* Border radius for rounded corners */
+    margin-bottom: 80px; /* Margin to separate cards */
+}
+.about-me-text {
+    max-width: 600px; /* Adjust values as needed */
+    margin: 0 auto;   /* Centers content */
+    margin-left: 80px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;      /* Maintain aspect ratio */
+}
